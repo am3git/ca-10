@@ -2,14 +2,14 @@
 
 Sukurti programą, kuri:
 
-Turėtų klasę Automobilis
-Automobilis turėtų savybes: metai, modelis, kuro_tipas
-Automobilis turėtų metodus: vaziuoti, stoveti, pildyti_degalu, kurie atitinkamai atspausdintų „Važiuoja“, „Priparkuota“, „Degalai įpilti“
-Sukūrus objektą, automatiškai atspausdintų automobilio metus, modelį ir kuro tipą
-Turėtų klasę Elektromobilis (jo tėvinis objektas – Automobilis)
-Elektromobilis pakeistų Automobilio metodą pildyti_degalu taip, kad jis atspausdintų „Baterija įkrauta“
-Elektromobilis turėtų metodą vaziuoti_autonomiskai, kuris spausdintų „Važiuoja autonomiškai“
-Sukurti norimą Automobilio objektą
-Sukurti norimą Elektromobilio objektą
-Su sukurtu Automobilio objektu paleisti funkcijas vaziuoti, stoveti, pildyti_degalu
-Su sukurtu Elektromobilio objektu paleisti funkcijas vaziuoti, stoveti, pildyti_degalu, vaziuoti_autonomiskai
+1. Turėtų klasę Automobilis
+2. Automobilis turėtų savybes: metai, modelis, kuro_tipas
+3. Automobilis turėtų metodus: vaziuoti, stoveti, pildyti_degalu, kurie atitinkamai atspausdintų „Važiuoja“, „Priparkuota“, „Degalai įpilti“
+4. Sukūrus objektą, automatiškai atspausdintų automobilio metus, modelį ir kuro tipą
+5. Turėtų klasę Elektromobilis (jo tėvinis objektas – Automobilis)
+6. Elektromobilis pakeistų Automobilio metodą pildyti_degalu taip, kad jis atspausdintų „Baterija įkrauta“
+7. Elektromobilis turėtų metodą vaziuoti_autonomiskai, kuris spausdintų „Važiuoja autonomiškai“
+8. Sukurti norimą Automobilio objektą
+9. Sukurti norimą Elektromobilio objektą
+10. Su sukurtu Automobilio objektu paleisti funkcijas vaziuoti, stoveti, pildyti_degalu
+11. Su sukurtu Elektromobilio objektu paleisti funkcijas vaziuoti, stoveti, pildyti_degalu, vaziuoti_autonomiskai
