@@ -15,3 +15,9 @@ class Car:
 
     def report(self):
         print(f"Year:{self.year} | Model:{self.model} | Fuel:{self.fuel_type}")
+
+ford = Car(2020, "Ford", "Gas")
+ford.report()
+ford.drive()
+ford.park()
+ford.fill()
