@@ -18,7 +18,7 @@ class Car:
 
 
 class ElectricCar(Car):
-    def __init__(self, year="new", model="Tesla", fuel_type="electric"):
+    def __init__(self, year="0", model="new", fuel_type="electric"):
         super().__init__(year, model, fuel_type)
 
     def parent_drive(self):
@@ -41,3 +41,12 @@ ford.report()
 ford.drive()
 ford.park()
 ford.fill()
+
+print("\n")
+
+volt = ElectricCar(2000, "Volt", "Electric")
+volt.parent_report()
+volt.parent_drive()
+volt.parent_park()
+volt.charge()
+volt.autopilot()
