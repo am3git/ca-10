@@ -16,6 +16,26 @@ class Car:
     def report(self):
         print(f"Year:{self.year} | Model:{self.model} | Fuel:{self.fuel_type}")
 
+
+class ElectricCar(Car):
+    def __init__(self, year="new", model="Tesla", fuel_type="electric"):
+        super().__init__(year, model, fuel_type)
+
+    def parent_drive(self):
+        super().drive()
+
+    def parent_park(self):
+        super().park()
+
+    def charge(self):
+        print("Battery is full")
+
+    def autopilot(self):
+        print("Autopilot is ON ")
+
+    def parent_report(self):
+        super().report()
+
 ford = Car(2020, "Ford", "Gas")
 ford.report()
 ford.drive()
