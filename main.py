@@ -50,3 +50,11 @@ volt.parent_drive()
 volt.parent_park()
 volt.charge()
 volt.autopilot()
+
+print("\n")
+
+opel = Car(1990, "Opel", "Diesel")
+opel.report()
+opel.drive()
+opel.park()
+opel.fill()
